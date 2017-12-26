@@ -1,0 +1,121 @@
+td, p {
+  font-family: arial, verdana, sans-serif;
+  font-size: 1em;
+}
+
+a, a:visited, a:link, a:active {
+  text-decoration: none;
+  color: #777;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.person-title {
+  font-family: arial, verdana, sans-serif;
+  font-size: 16px;
+}
+
+.small {
+  font-size: .9em;
+}
+
+body{
+  font-family: arial;
+}
+
+.table-list td{
+  padding: 5px 15px 0 0;
+}
+
+.float-right{
+  float: right;
+  padding-right: 15px;
+}
+
+.location {
+  font-style: italic;
+}
+
+/* HEADER */
+
+header {
+  overflow: auto;
+}
+
+#photo-container{
+  width: 160px;
+  float: left;
+}
+
+#photo-container img{
+  width: 100%;
+}
+
+#header-space{
+  height: 160px;
+  float: left;
+  padding-left: 10px;
+}
+
+#name-wrapper {
+  position: relative;
+  top: 40%;
+}
+
+#links-accounts {
+  margin-left: 20px;
+}
+
+#links-accounts a:hover,
+#links-accounts a:visited,
+#links-accounts a:link,
+#links-accounts a:active{
+  text-decoration: none;
+}
+
+#name {
+  font-family: arial, verdana, sans-serif;
+  font-size: 36px;
+}
+
+/* ASIDE */
+#pdf-float{
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* CONTENT */
+
+#main-content {
+  max-width: 1024px;
+  margin-left: 160px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 30px;
+}
+
+.section-header{
+  margin-top: 40px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight:bold;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  margin-bottom: 10px;
+}
+
+#last-updated{
+  font-size: smaller;
+  font-style: italic;
+  margin-left: 160px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+} 
+
+.job ul{
+  list-style-type: none;
+}
