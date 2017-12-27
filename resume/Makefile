@@ -1,7 +1,7 @@
 DVIPS = dvips -t letter -Ppdf
 ACROREAD = acroread -geometry 1600x800
 GV = ghostview -scale 3
-IN = cv
+IN = javier_ribera_resume
 paper:
 	latex $(IN) 
 	latex $(IN)
@@ -16,5 +16,5 @@ clean:
 	/bin/rm -f *.aux *.log *.blg *.dvi *.toc *.bbl
 
 embed:
-	gs -sDEVICE=pdfwrite -dBATCH -dSAFER -dNOPAUSE -dPDFX -dPDFSETTINGS=/prepress -sOutputFile=cv.pdf -c'> setdistillerparams' -f cv.pdf -c quit
+	gs -sDEVICE=pdfwrite -dBATCH -dSAFER -dNOPAUSE -dPDFX -dPDFSETTINGS=/prepress -sOutputFile=javier_ribera_resume.pdf -c'> setdistillerparams' -f javier_ribera_resume.pdf -c quit
 
