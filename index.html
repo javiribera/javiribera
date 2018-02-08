@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Javier Ribera</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="css/template.css" rel="stylesheet" >
+  <link href="template.css" rel="stylesheet" >
 </head>
 
 <body>
@@ -15,7 +15,7 @@
 
 <main class="row" id="main-content">
 
-  <div class="col-sm-2 nomargins center">
+  <div class="col-sm-3 nomargins center" id="navcolumn">
     <img id="photo" src="self.jpeg">
 
     <div id="name-wrapper">
@@ -42,8 +42,8 @@
 	</div>
 	<div id="menu">
 		<ul>
-			<li><a href="#publications">Publications</a></li>
 			<li><a href="#experience">Experience</a></li>
+			<li><a href="#publications">Publications</a></li>
 			<li><a href="#education">Education</a></li>
 			<li><a href="#skills">Skills</a></li>
 			<li><a href="#graduate-courses">Graduate Courses</a></li>
@@ -53,53 +53,60 @@
 
   </div>
 
-  <div class="col-sm-9">
+  <div id="content" class="col-sm-8">
 
   <p>
-  <b>Ph.D. Student</b> at <a href="http://www.purdue.edu/">Purdue University</a> (<a href="https://engineering.purdue.edu/ECE">Electrical and Computer Engineering</a>), graduating on August 2018 <br>  
-  <a href="http://viperlab.org">Video and Image Processing Laboratory (VIPER)</a>  <br>
+  I am a <b>Ph.D. Student</b> at <a href="http://www.purdue.edu/">Purdue University</a> (<a href="https://engineering.purdue.edu/ECE">Electrical and Computer Engineering</a>), and a member of the <a href="http://viperlab.org">Video and Image Processing Lab (VIPER)</a>.
   
+  <p>
+  My advisor is <b><a href="https://engineering.purdue.edu/ECE/People/profile?resource_id=2632">Prof. Edward Delp</a></b>.
   </p>
 
   <p>
-  <b>Advisor</b> <br>
-  <a href="https://engineering.purdue.edu/ECE/People/profile?resource_id=2632">Prof. Edward Delp</a>
-  </p>
-
-  <p>
-  <b>Research Interests</b> <br>
-  Computer Vision, Deep Learning, Image/video processing
+  My research work focuses on Deep Learning and applications on Computer vision and Image/video Processing.
   </p>
 
 
 <h1 class="section-header"><a name="experience">Experience</a></h1>
 
   <div class="job">
-    <b> Research Intern </b> <span class="float-right">May 2017 - August 2017</span> <br>
-    <a href="https://www.samsung.com/us/labs/labs/displayamerica.html">Samsung Display America Lab</a> <span class="float-right location">San Jose, CA</span>
+    <b> Research Assistant</b> <span class="float-right">January 2016 - </span>
+    <br>
+    <a href="https://engineering.purdue.edu/~sorghum">ARPA-E Project</a>. VIPER Lab, Purdue University <span class="float-right location">West Lafayette, IN, USA</span>
+    <br>
     <ul>
-        <li> - Developed a new objective image fidelity metric that models the display and the Human Visual System.</li>
-        <li> - Goal: Evaluate visually lossless compression in Samsung displays.</li>
+      <li> - Design a new loss function for object localization without bounding boxes with &ge; 90&#37; accuracy.</li>
+      <li> - Develop a system based on CNNs and FCNs for plant location and counting from UAV images.</li>
+      <li> - Employ GANs for data augmentation.</li>
     </ul>
   </div>
 
   <div class="job">
-    <b> Research Assistant</b> <span class="float-right">January 2015 - </span>
-    <br>
-    <a href="http://viperlab.org/">Video and Image Processing (VIPER) laboratory</a>, Purdue University <span class="float-right location">West Lafayette, IN, USA</span>
-    <br>
-    Developed and used deep learning (CNNs, FCNs, GANs) and computer vision techniques for:
+    <b> Research Internship </b> <span class="float-right">May 2017 - August 2017</span> <br>
+    <a href="https://www.samsung.com/us/labs/labs/displayamerica.html">Samsung Display America Lab</a> <span class="float-right location">San Jose, CA</span>
     <ul>
-      <li> - Precision Agriculture. Count, locate and segment plants in aerial images taken from drones (ARPA-E project).</li>
+        <li> - Develop a new image fidelity metric that can model any display and also models the Human Visual System.</li>
+        <li> - Goal: Evaluate visually lossless compression in Samsung displays.</li>
+        <li> - Result: This metric is better correlated with subjective evaluation than state-of-the-art metrics.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <b> Research Assistant</b> <span class="float-right">January 2015 - December 2015</span>
+    <br>
+    VIPER lab, Purdue University <span class="float-right location">West Lafayette, IN, USA</span>
+    <br>
+    Developed computer vision and image processing techniques for:
+    <ul>
       <li> - Medical imaging. Segment endocardium in echocardiograms and estimate heart ejection fraction.</li>
       <li> - Visual Surveillance. Count people from videos. Improved accuracy by incorporating crowdsourcing.</li>
     </ul>
   </div>
   
-  <div class="job">
-    <b> Web Development and System Administrator </b> <span class="float-right">July 2013 - December 2013</span> <br>
-    <a href="http://www.boolino.com/">Boolino</a>, <a href="https://en.wikipedia.org/wiki/Telef%C3%B3nica">Telefónica</a> <span class="float-right location">Barcelona, Spain</span>
-  </div>
+  <!--<div class="job">-->
+  <!--  <b> Web Development and System Administrator </b> <span class="float-right">July 2013 - December 2013</span> <br>-->
+  <!--  <a href="http://www.boolino.com/">Boolino</a>, <a href="https://en.wikipedia.org/wiki/Telef%C3%B3nica">Telefónica</a> <span class="float-right location">Barcelona, Spain</span>-->
+  <!--</div>-->
 
 
   <h1 class="section-header"><a name="publications">Publications</a></h1>
@@ -111,9 +118,21 @@
 	   <br> <i>IEEE Global Conference on Signal and Information Processing (GlobalSIP)</i> -  November 2017, Montreal, Canada (to appear)</small>
 	</div>
         <div class="col-sm-2 paperfig">
+	   <!--<img src="fig/rows.jpeg">-->
+        </div>
+    </div>
+
+    <div class="row paper">
+    	<div class="col-sm-10 paperfig">
+	    &bull; <a href="https://doi.org/10.1109/ICCVW.2017.238"><b>Locating Crop Plant Centers from UAV-Based RGB Imagery</b></a>  <br> 
+	    <small>Y. Chen,  <b>J. Ribera</b>, C. Boomsma, and E. J. Delp 
+	   <br> <i>IEEE International Conference on Computer Vision Workshops (ICCVW)</i> -  October 2017, Venice, Italy</small>
+	</div>
+        <div class="col-sm-2 paperfig">
 	   <img src="fig/rows.jpeg">
         </div>
     </div>
+
 
     <div class="row paper">
     	<div class="col-sm-10">
@@ -141,7 +160,7 @@
     	<div class="col-sm-10">
 	    &bull; <a href="https://engineering.purdue.edu/CE/Academics/Groups/Geomatics/DPRG/The%20DPRG%20Group/Fang_Papers/KDD2016.pdf"><b>Estimating Phenotypic Traits From UAV Based RGB Imagery</b></a>  <br> 
 	    <small><b>J. Ribera</b>, F. He, Y. Chen, A. F. Habib, and E. J. Delp
-		   <br> <i>ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Workshop on Data Science for Food, Energy, and Water</i> - August 2016, San Francisco, CA</small>
+		   <br> <i>ACM SIGKDD Conference on Knowledge Discovery and Data Mining Workshop</i> - August 2016, San Francisco, CA</small>
 	</div>
         <div class="col-sm-2 paperfig">
 	   <img src="fig/kdd.png">
@@ -170,16 +189,16 @@
         </div>
     </div>
 
-    <div class="row paper">
-    	<div class="col-sm-10">
-	    &bull; <a href="https://dx.doi.org/10.1117/12.2077807"><b>An Intelligent Crowdsourcing System for Forensic Analysis of Surveillance Video</b></a>  <br>
-	    <small>K. Tahboub, N. Gadgil, <b>J. Ribera</b>, B. Delgado, and E. J. Delp
-		    <br> <i>IS&T/SPIE Electronic Imaging on Imaging and Multimedia Analytics in a Web and Mobile World</i> - February 2015, San Francisco, CA</small>
-	</div>
-        <div class="col-sm-2 paperfig">
-	   <img src="fig/crowdsourcing.png">
-        </div>
-    </div>
+    <!--<div class="row paper">-->
+        <!--<div class="col-sm-10">-->
+		<!--&bull; <a href="https://dx.doi.org/10.1117/12.2077807"><b>An Intelligent Crowdsourcing System for Forensic Analysis of Surveillance Video</b></a>  <br>-->
+		<!--<small>K. Tahboub, N. Gadgil, <b>J. Ribera</b>, B. Delgado, and E. J. Delp-->
+			<!--<br> <i>IS&T/SPIE Electronic Imaging on Imaging and Multimedia Analytics in a Web and Mobile World</i> - February 2015, San Francisco, CA</small>-->
+	<!--</div>-->
+        <!--<div class="col-sm-2 paperfig">-->
+	   <!--<img src="fig/crowdsourcing.png">-->
+        <!--</div>-->
+    <!--</div>-->
 
     <div class="row paper">
     	<div class="col-sm-10">
@@ -198,7 +217,7 @@
 
   <h1 class="section-header"><a name="education">Education</a></h1>
   <p>
-  <b> Ph.D, Electrical and Computer Engineering</b> <span class="float-right">January 2015 - August 2018 (expected)</span>
+  <b> Ph.D, Electrical and Computer Engineering</b> <span class="float-right">January 2015 - December 2018 (expected)</span>
   <br>
   <a href="https://purdue.edu/">Purdue University</a> <span class="float-right location">West Lafayette, IN, USA</span>
   </p>
@@ -219,7 +238,7 @@
     </tr>
     <tr>
       <td>Libraries/frameworks:</td>
-      <td>TensorFlow, PyTorch, Numpy, OpenCV</td>
+      <td>TensorFlow, PyTorch, Numpy, OpenCV, Docker</td>
     </tr>
     <tr>
       <td>Management tools:</td>
@@ -241,6 +260,12 @@
   <h1 class="section-header"><a name="graduate-courses">Graduate Courses</a></h1>
 
   <table class="table-list">
+
+    <tr>
+      <td><a href="https://github.com/PredictiveScienceLab/uq-course">MA 598:</a></td>
+      <td>Uncertainty Quantification</td>
+      <td><a href="https://www.predictivesciencelab.org">Prof. Illias Bilinois</a></td>
+    </tr>
 
     <tr>
       <td><a href="https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=173&show=true&type=grad">ECE 642:</a></td>
@@ -352,7 +377,7 @@
 
 <footer class="row">
   <div id="last-updated">
-    Last Updated: 12/27/2018
+    Last Updated: 02/08/2018
   </div>
 </footer>
 

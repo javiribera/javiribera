@@ -1,11 +1,23 @@
+body{
+  font-size: 1.5em;
+}
+
+}
+.nomargins{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+
 td, p {
   font-family: arial, verdana, sans-serif;
   font-size: 1em;
+  margin-top: 10px;
 }
 
 a, a:visited, a:link, a:active {
   text-decoration: none;
-  color: #777;
+  color: rgb(51, 122, 183);
 }
 
 a:hover {
@@ -26,7 +38,7 @@ body{
 }
 
 .table-list td{
-  padding: 5px 15px 0 0;
+  padding: 0 15px 0 0;
 }
 
 .float-right{
@@ -44,29 +56,25 @@ header {
   overflow: auto;
 }
 
-#photo-container{
-  width: 160px;
-  float: left;
+.center{
+	text-align: center;
 }
-
-#photo-container img{
-  width: 100%;
+#photo{
+  width: 100px;
+  margin-bottom: 10px;
 }
 
 #header-space{
-  height: 160px;
+  height: 110px;
   float: left;
   padding-left: 10px;
 }
 
 #name-wrapper {
   position: relative;
-  top: 40%;
+  top: 50%;
 }
 
-#links-accounts {
-  margin-left: 20px;
-}
 
 #links-accounts a:hover,
 #links-accounts a:visited,
@@ -77,13 +85,12 @@ header {
 
 #name {
   font-family: arial, verdana, sans-serif;
-  font-size: 36px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* ASIDE */
 #pdf-float{
-  float: right;
-  margin-right: 20px;
   margin-top: 20px;
   text-align: center;
 }
@@ -91,31 +98,79 @@ header {
 /* CONTENT */
 
 #main-content {
-  max-width: 1024px;
-  margin-left: 160px;
   padding-left: 10px;
-  padding-top: 5px;
-  padding-right: 30px;
+  padding-top: 25px;
+  padding-right: 10px;
 }
 
 .section-header{
-  margin-top: 40px;
+  margin-top: 30px;
   font-size: 18px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight:bold;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   margin-bottom: 10px;
 }
+.section-header a{
+  color: rgb(0,0,0);
+}
+
+.section-header a:hover{
+    text-decoration: none;
+}
 
 #last-updated{
   font-size: smaller;
   font-style: italic;
-  margin-left: 160px;
-  padding-left: 10px;
   margin-bottom: 10px;
+  margin-left: 20px;
 } 
+
+.job {
+  margin-bottom: 10px;
+}
 
 .job ul{
   list-style-type: none;
+}
+
+.paper{
+  margin-bottom: 10px;
+}
+
+.paperfig{
+  height: 75px;
+}
+.paperfig img{
+  height: inherit;
+}
+
+#menu{
+  margin-top: 20px;
+}
+
+#menu ul{
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: bold;
+}
+/*
+#sidebar{
+  margin-top: 5px;
+  position: fixed;
+  display: block;
+}
+*/
+
+#navcolumn{
+    /*margin-right: 10px;*/
+    /*padding-top: 10px;*/
+    border-radius: 10px;
+}
+
+#content{
+    /*margin-left: 10px;*/
+    /*padding-top: 10px;*/
+    border-radius: 10px;
 }
