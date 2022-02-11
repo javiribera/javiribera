@@ -112,6 +112,7 @@ header {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   margin-bottom: 10px;
+  margin-left: -15px;
 }
 .section-header a{
   color: rgb(0,0,0);
