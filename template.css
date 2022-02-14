@@ -47,9 +47,7 @@ body{
 }
 
 .center-vertically{
-  display: table-cell;
-  vertical-align: middle;
-  height: 150px;
+  margin: 20% 0;
 }
 
 
@@ -148,12 +146,18 @@ header {
   margin-bottom: 10px;
 }
 
-.paperfig{
-  height: 75px;
-}
-.paperfig img{
+.logo-company img{
   max-height: inherit;
   max-width: 150px;
+}
+
+.paperfig{
+  height: 75px;
+  text-align: right;
+}
+
+.paperfig img{
+  max-height: 80px;
 }
 
 #menu{
