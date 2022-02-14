@@ -46,6 +46,13 @@ body{
   padding-right: 15px;
 }
 
+.center-vertically{
+  display: table-cell;
+  vertical-align: middle;
+  height: 150px;
+}
+
+
 .location {
   font-style: italic;
 }
@@ -56,7 +63,7 @@ header {
   overflow: auto;
 }
 
-.center{
+.center-horizontally{
 	text-align: center;
 }
 #photo{
@@ -145,7 +152,8 @@ header {
   height: 75px;
 }
 .paperfig img{
-  height: inherit;
+  max-height: inherit;
+  max-width: 150px;
 }
 
 #menu{
