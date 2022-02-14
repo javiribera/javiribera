@@ -81,12 +81,21 @@ header {
   top: 50%;
 }
 
+#accounts{
+  margin-top: 10px;
+}
 
-#links-accounts a:hover,
-#links-accounts a:visited,
-#links-accounts a:link,
-#links-accounts a:active{
+#accounts a:hover,
+#accounts a:visited,
+#accounts a:link,
+#accounts a:active{
   text-decoration: none;
+}
+
+#accounts img{
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
 }
 
 #name {
