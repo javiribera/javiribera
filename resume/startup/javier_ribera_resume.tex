@@ -1,0 +1,201 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage{scrextend}
+\usepackage[utf8]{inputenc}
+\usepackage[hidelinks]{hyperref}
+\usepackage[left=0.5in,top=0.3in,right=0.5in,bottom=0.3in]{geometry} % Document margins
+\usepackage{hyperref}
+
+\hypersetup{urlcolor=magenta}
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+ 
+\name{Javier Ribera} % Your name
+\address{\href{mailto:javier@ribera.me}{javier@ribera.me}}
+%\address{\url{http://ribera.me}}
+\begin{document}
+
+% %----------------------------------------------------------------------------------------
+% %	OBJECTIVE SECTION
+% %----------------------------------------------------------------------------------------
+% \vspace{-8pt}
+% \begin{rSection}{Objective}
+% To obtain a full-time position in Deep Learning applied to Computer Vision/Image Processing, starting January 2019.
+% 
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\vspace{-10pt}
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Co-founder}{8/2020 - Present}{\textbf{$\hookrightarrow$ Oqullo}}{Miami, FL}
+\setlength{\itemindent}{.3in}
+\item[-] Built from the ground-up a platform for foot traffic analytics using existing camera networks. 
+\item[-] Led a team of developers, designed roadmap, planned budget, and coordinated labeling efforts and sales prospecting.
+\item[-] Developed a Pedestrian Tracking System across multiple cameras. Research and implementation on-premise and in AWS.
+\item[-] Technologies used: CNN, TensorRT, Person-ReID, Docker, React
+\end{rSubsection}
+
+\begin{rSubsection}{Sr. Algorithm Engineer}{Jan 2019 - Jul 2020}{\textbf{$\hookrightarrow$ Samsung}}{San Jose, CA}
+\setlength{\itemindent}{.3in}
+\item[-] Researched and delivered Machine/Deep Learning models to evaluate the image quality of Samsung's new displays.
+\item[-] Patented an objective visual quality evaluation of Samsung's display pipeline.
+\item[-] Evaluated image quality, visualy and quantitatively, with Python and Matlab simulations of displays and the Human Visual System.
+\item[-] Technologies used: PyTorch, CNN, FCN, MLP, ELM, PSNR, SSIM, SCIELAB, ISETBIO
+\end{rSubsection}
+
+
+\begin{rSubsection}{Research Assistant}{Jan 2016 - Dec 2018}{\textbf{$\hookrightarrow$ (ARPA-E Project)} Video and Image Processing (VIPER) Lab, Purdue University}{West Lafayette, IN}
+\setlength{\itemindent}{.3in}
+\item[-] Designed a new loss function for object localization without bounding boxes with $ \ge 90\%$ accuracy.
+\item[-] Developed a system based on CNNs and FCNs for plant location and counting from UAV images.
+\item[-] Used GANs for data augmentation.
+\item[-] Published research at CVPR '19 (Top 1\%), Best Paper Finalist Award **
+\end{rSubsection}
+
+
+\begin{rSubsection}{Research Intern}{May 2017 - Aug 2017}{$\hookrightarrow$ \textbf{Samsung}}{San Jose, CA}
+\setlength{\itemindent}{.3in}
+\item[-] Developed a new image fidelity metric to evaluate visually lossless compression in Samsung's display pipeline.
+\item[-] Result: Higher correlation with subjective evaluation than state-of-the-art metrics.
+\end{rSubsection}
+
+\begin{rSubsection}{Research Assistant}{Jan 2015 - Dec 2015}{$\hookrightarrow$ \textbf{Video and Image Processing} (VIPER) Lab, \textbf{Purdue University}}{West Lafayette, IN}
+\item[]~~~~~Developed computer vision and image processing techniques for:
+\setlength{\itemindent}{.3in}
+\item[-] Medical Imaging. Segmention of endocardium in echocardiograms and estimate heart ejection fraction.
+\item[-] Visual Surveillance. Counting pedestrian traffic from videos. Improved accuracy by incorporating crowdsourcing.
+\end{rSubsection}
+
+\begin{rSubsection}{Web developer and sysadmin}{Jul 2013 - Dec 2013}{$\hookrightarrow$ \textbf{boolino , Telefonica}}{Barcelona, Spain}
+\setlength{\itemindent}{.3in}
+\item[-] Developed front-end in AngularJS and Bootstrap, and backend in Django and PHP.
+\item[-] System administration with Debian Linux
+\end{rSubsection}
+
+\vspace{-1pt}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{-5pt}
+\begin{rSection}{Education}
+
+{\bf PhD, Computer Engineering} ({\normalfont Advisor}: Prof. Edward Delp) -- Purdue University\hfill{\em West Lafayette, IN} \hfill {Jan 2015 - Dec 2018}
+%
+
+
+{\bf BS, Telecommunications Engineering}  -- Polytechnic University of Catalonia  \hfill { \em  Barcelona, Spain} 
+ \hfill { Sep 2009 - Dec 2014}
+
+\vspace{-1pt}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Publications (selected)}
+
+\footnotesize
+\begin{enumerate}
+\setlength{\itemindent}{-.1in}
+\item 
+\textbf{** Locating objects without bounding boxes} -- \emph{CVPR. Best Paper Finalist Award (Top 1\% of accepted papers)}, June 2019
+\item 
+\textbf{A machine learning approach to objective image quality evaluation} -- \emph{Society of Information Display - Display Week}, May 2019
+\item 
+    \textbf{A subpixel-based objective image quality metric [...]} -- \emph{Society of Information Display - Display Week}, May 2018
+\item 
+\textbf{Counting plants using deep learning} -- \emph{IEEE Global Conference on Signal and Information Processing (GlobalSIP)}, November 2017
+\item 
+\textbf{Locating crop plant centers from UAV-based RGB imagery} \emph{IEEE International Conference on Computer Vision (ICCV)}, October 2017
+\item 
+\textbf{Plant leaf segmentation for estimating phenotypic traits} -- \emph{IEEE International Conference on Image Processing (ICIP)}, September 2017
+\item 
+\textbf{Pill recognition using minimal labeled data} -- \emph{IEEE International Conference on Multimedia Big Data}, April 2017 % \url{https://doi.org/10.1109/BigMM.2017.61}
+%\item 
+%\textbf{Estimating phenotypic traits from UAV based RGB imagery} -- J. Ribera, F. He, Y. Chen, A. F. Habib, and E. J. Delp, \\
+%        \emph{ACM SIGKDD Conference on Knowledge Discovery and Data Mining}, August 2016, San Francisco, CA
+\item 
+\textbf{Automatic and manual tattoo localization} \emph{IEEE International Conference on Technologies for Homeland Security}, May 2016 % \url{https://doi.org/10.1109/THS.2016.7568950}
+%\item 
+%\textbf{Characterizing the uncertainty of classification methods and its impact on crowdsourcing} J. Ribera, K. Tahboub, and E. J. Delp, \\
+%        \emph{IS\&T/SPIE Electronic Imaging}, February 2015, San Francisco, CA % \url{https://doi.org/10.1117/12.2085415}
+\item 
+\textbf{An intelligent crowdsourcing system for forensic analysis of surveillance video} -- \emph{IS\&T/SPIE Electronic Imaging}, February 2015
+\item 
+\textbf{Automated crowd flow estimation enhanced by crowdsourcing} -- \emph{IEEE National Aerospace \& Electronics Conference}, June 2014 %, Dayton, OH % \url{https://doi.org/10.1109/NAECON.2014.7045798}
+\end{enumerate}
+
+\vspace{-5pt}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l }
+\textbf{Programming Languages} & Python, C, MATLAB, Java, HTML5, Javascript, PHP \\
+\textbf{Libraries/Tools} & TensorFlow, PyTorch, scikit-learn, Numpy, OpenCV, Git, AWS, GCP, Docker, Linux systems \\
+%\textbf{Languages} & Spanish (native), Catalan (native), French (intermediate) \\
+%\textbf{System Administration} & Linux
+\end{tabular}
+
+\vspace{-1pt}
+
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	VOLUNTEERING SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Volunteering}
+%
+%\begin{itemize}
+%\setlength{\itemindent}{-.2in}
+%  \item[-] LinuxUPC student society. Promoted and taught the use of open source software to university students.
+%\end{itemize}
+
+%\vspace{-1pt}
+
+%\end{rSection}
+
+
+\end{document}
